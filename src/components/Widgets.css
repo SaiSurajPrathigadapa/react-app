@@ -1,0 +1,12 @@
+.widgets-wrapper {
+    background-color: rgb(123, 110, 180);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.widgets-wrapper .elements,
+.widgets-wrapper .widgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
